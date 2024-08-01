@@ -1,0 +1,37 @@
+/* Container for the products */
+.products-container {
+    margin-top: 20px;
+}
+
+/* Styling for each product card */
+.product-card {
+    margin-bottom: 20px;
+}
+
+/* Center align text within product details */
+.product-details {
+    text-align: center;
+}
+
+/* Title styling for product names */
+.product-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Styling for product descriptions */
+.product-description {
+    margin: 10px 0;
+}
+
+/* Styling for product prices */
+.product-price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Margin for the 'Add to Cart' button */
+.add-to-cart-button {
+    margin-top: 10px;
+}

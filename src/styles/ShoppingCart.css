@@ -1,0 +1,99 @@
+/* Container for the shopping cart */
+.shopping-cart {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+/* Styling for each item in the cart */
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Styling for product images in the cart */
+.cart-item img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+/* Container for item details in the cart */
+.item-details {
+    flex-grow: 1;
+}
+
+/* Styling for item titles in the cart */
+.item-details h4 {
+    margin: 0;
+}
+
+/* Styling for buttons in the item details */
+.item-details button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Hover effect for buttons in item details */
+.item-details button:hover {
+    background-color: #ff1a1a;
+}
+
+/* Main container for the shopping cart */
+.shopping-cart {
+    padding: 20px;
+  }
+  
+/* Heading style within the shopping cart */
+  .shopping-cart h2 {
+    margin-bottom: 20px;
+  }
+  
+/* Style for the list within the shopping cart */
+  .shopping-cart ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+/* Style for each list item in the shopping cart */
+  .shopping-cart li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+/* Margin for buttons in the shopping cart */
+  .shopping-cart button {
+    margin-left: 10px;
+  }
+  
+/* Main container for the shopping cart with relative positioning */
+  .shopping-cart {
+    position: relative;
+    padding: 20px;
+}
+
+/* Container for the order button in the shopping cart */
+.order-button-container {
+    text-align: right;
+    margin-top: 20px;
+}
+
+/* Styling for order error messages */
+.order-error {
+    color: red;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Styling for order confirmation messages */
+.order-confirmation {
+    margin-top: 20px;
+    color: green;
+    font-weight: bold;
+}

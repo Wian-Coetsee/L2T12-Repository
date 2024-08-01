@@ -1,0 +1,60 @@
+/* Container for landing page elements */
+.landing-container {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+}
+
+/* Section with a gradient background and white text */
+.hero-section {
+    background: linear-gradient(to right, #007bff, #6610f2);
+    color: #fff;
+    padding: 4rem 0;
+}
+
+/* Heading styling within hero section */
+.hero-section .display-3 {
+    font-weight: 700;
+}
+
+/* Styling for lead text within hero section */
+.hero-section .lead {
+    font-size: 1.25rem;
+}
+
+/* Styling for store image */
+.store-image {
+    border: 5px solid #fff;
+    border-radius: 8px;
+}
+
+/* Section with a light gray background */
+.info-section {
+    background-color: #e9ecef;
+    padding: 3rem 0;
+}
+
+/* Heading styling within info section */
+.info-section h3 {
+    color: #343a40;
+}
+
+/* Section with a light green background for promotions */
+.promo-section {
+    background-color: #d4edda;
+    padding: 2rem 0;
+}
+
+/* Heading styling within promo section */
+.promo-section h2 {
+    color: #155724;
+}
+
+/* Paragraph styling within promo section */
+.promo-section p {
+    font-size: 1.125rem;
+}
+
+/* Button styling within promo section */
+.promo-section Button {
+    margin-top: 1rem;
+}

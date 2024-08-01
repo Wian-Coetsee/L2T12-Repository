@@ -1,0 +1,36 @@
+/* Container for the overall About page layout */
+.about-container {
+    text-align: center;
+    margin: 2rem;
+}
+
+/* Styling for the logo figure element */
+.logo-figure {
+    margin-bottom: 2rem;
+}
+
+/* Styling for the logo image */
+.logo-image {
+    border: 5px solid #333;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Container for store images, using flexbox for layout */
+.store-images {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/* Styling for individual store image figures */
+.store-figure {
+    margin: 0;
+}
+
+/* Styling for the store images */
+.store-image {
+    border: 5px solid #444;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
